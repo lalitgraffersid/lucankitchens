@@ -1,0 +1,151 @@
+
+@media (max-width:1499px) {
+
+.banner-wrapper .caption .captxt { margin-top: 120px; }
+
+}
+
+
+@media (max-width:1199px) {
+
+.container { max-width: 100%; }
+
+.banner-wrapper .caption .captxt h1 { font-size: 30px; }
+.banner-wrapper .caption .captxt p { font-size: 20px; }
+.logo { width: 300px; height: 200px; }
+.logo img { width: 120px; }
+
+.top-info ul li { font-size: 18px; }
+
+.site-nav > ul > li { margin: 0 10px; }
+.site-nav > ul > li > a { font-size: 15px;}
+
+.about-wrapper .txt { width: 90%; }
+
+}
+
+
+
+@media (max-width:991px) {
+
+.header-wrapper { position: relative;}
+.logo {width: auto; height: auto; background: transparent;}
+.logo img { width: auto; }
+
+.top-info ul { text-align: center; }
+
+
+.menu-wrapper, .menu-wrapper:after, .menu-wrapper:before { background: #999;  }
+.menu-wrapper:after, .menu-wrapper:before { width: 15px;}
+.menu-wrapper:after { right: -15px;}
+.menu-wrapper:before { left: -15px;}
+	
+.site-nav > ul > li { margin: 0 5px; }
+.site-nav > ul > li > a { font-size: 15px;}
+
+.banner-wrapper .caption .captxt { margin-top: 0; }
+.item-wrapper h3 { font-size: 15px; }
+
+.banner-wrapper.inner-banner img { height: 200px; object-fit: cover; object-position: center; }
+
+.about-wrapper h2 { font-size: 25px; }
+
+
+}
+
+
+
+@media (max-width:767px) {
+
+html, body { font-size: 15px; }
+h1, h2, h3, h4, h5, h6, p { padding-bottom:15px;}
+
+h1 { font-size: 25px; }
+
+.logo img { height: 100px; }
+
+.banner-wrapper .caption { display: none; }
+
+.about-wrapper .container { padding-left: 15px; padding-right: 15px; }
+.about-wrapper .txt { width: 100%; }
+.about-wrapper h2 { font-size: 22px; }
+
+.top-info ul li { font-size: 16px; }
+.menu-wrapper { justify-content: center; }
+.search { margin: 0 10px 0 0;  }
+
+.mob-click{ display: block;}
+
+.site-nav{ position: fixed; width: 100%; height: 100%; left: -100%; top: 0; background: #fff; padding-top: 50px; z-index: 999; transition: all 0.8s ease;}
+.site-nav.act{ left: 0;}
+.site-nav > ul{ text-align: left;}
+.site-nav > ul > li{ display: block; width: 100%; margin: 0; padding: 0;}
+.site-nav ul li.has-sub{ padding-right: 0;}
+.site-nav > ul > li > a{ padding:5px 15px; color: #4A4A4A; display: block; border-bottom: 1px solid #ddd;}
+.sub-drop-alt{ color: #fff !important; top: 0; background: #333; text-align: center; height: 38px; width: 30px; line-height: 38px;}
+
+.site-nav > ul > li > ul{ position: static; opacity: 1 !important; visibility: visible !important; box-shadow: none; width: 100%; display: none; transition: none;}
+.site-nav > ul > li > ul > li > a{ padding-left: 30px;}
+.site-nav > ul > li > ul > li:last-child > a{ border-bottom: 1px solid #f3f3f3;}
+
+.site-nav > ul > li > ul > li > ul{ position: static; opacity: 1 !important; visibility: visible !important; box-shadow: none; width: 100%; display: none; transition: none;}
+.site-nav > ul > li > ul > li > ul > li > a{ padding-left: 45px;}
+.site-nav > ul > li > ul > li > ul > li:last-child > a{ border-bottom: 1px solid #f3f3f3;}
+
+.item-wrapper .col-md-4 { padding: 15px; border-bottom: 1px solid #fff; border-right: 0; }
+.inner-banner-wrapper img { height: 200px; }
+
+.cart { float: right; }
+
+.product-wrapper h2 { font-size: 30px; padding-bottom: 20px; }
+.product-wrapper .box h4 { font-size: 22px; }
+
+.contact-bottom { text-align: center; }
+.contact-bottom h2 { font-size: 25px; }
+.contact-bottom .txt { padding-left: 0; }
+.contact-bottom .year { position: relative; font-size: 60px; }
+
+.partners h2 { font-size: 25px; padding-bottom: 20px;}
+.partners h3 { font-size: 20px;}
+
+.list { display: none; padding-top: 10px; }
+.footer-wrapper .connect { display: block; }
+
+
+.copy-wrapper { padding: 20px 0; text-align: center; }
+.copy-wrapper .right {text-align: center;}
+
+.footer-wrapper h5 { font-size:15px; padding-bottom:0; cursor: pointer; background: url(../images/arrow-down2.png) no-repeat 99% 17px; border-bottom: 1px solid #777; padding:10px 0; }
+
+.genpad, .inner-wrapper { padding: 30px 0; }
+
+.inner-wrapper h3 { font-size: 20px; }
+
+.breadcrumb { margin-bottom: 0; }
+
+.product-details-wrapper .pic { padding-bottom: 20px; }
+.product-description { font-size: 15px; }
+
+.contact-wrapper h3 { font-size: 20px; padding-bottom: 15px; }
+.contact-address ul li {padding-bottom: 15px;}
+
+
+
+.btn-cart { float: none; }
+
+
+.payment-wrapper { width: 90%; margin: 0 auto; }
+.payment-wrapper h1 { font-size: 22px; }
+
+}
+
+
+
+
+@media (max-width:479px) {
+
+.banner-wrapper img { height: 250px; object-fit: cover; object-position: center; }
+
+
+}
+

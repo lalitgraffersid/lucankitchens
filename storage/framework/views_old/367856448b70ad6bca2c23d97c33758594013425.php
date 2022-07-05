@@ -1,0 +1,184 @@
+<?php $__env->startSection('title', $cms_data->meta_title); ?>
+<?php $__env->startSection('description', $cms_data->meta_description); ?>
+<?php $__env->startSection('keywords', $cms_data->meta_keyword); ?>
+<?php $__env->startSection('content'); ?>
+
+<!--banner wrapper start-->
+      <!--banner wrapper start-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<div class="banner_wrapper">
+
+<style>
+
+.carousel-item img {
+
+    max-width: 100%;
+    height: 500px;
+    min-height: 100%;
+    object-fit: cover;
+
+}
+
+</style>
+ <div id="demos2" class="carousel slide" data-ride="carousel">
+
+         
+          <ul class="carousel-indicators">
+            <?php $__currentLoopData = $banners; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $banner): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+            <li data-target="#demos2" data-slide-to="<?php echo e($key); ?>" class="<?php echo e($key == 0 ? 'active' : ''); ?>"></li>
+            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+          </ul>
+        
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+    
+    <?php $__currentLoopData = $banners; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $banner): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?> 
+  
+      <div class="carousel-item <?php echo e($key == 0 ? 'active' : ''); ?>" >
+            <img src="http://lucankitchens.ie/admin/clip-one/assets/banner/banner/original/<?php echo e($banner->banner_image); ?>" alt="" >
+           <div class="caption">
+            <div class="container">
+               <div class="row">
+               <div class="col-md-12">
+                     <h2>Exceptional Personalized
+                        <span>Kitchens &amp; Wardrobes</span>
+                     </h2>
+                  </div>
+               </div>
+            </div>
+         </div> 
+          </div>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+      
+      
+        </div>
+    
+    
+    
+    
+        
+        <!-- Left and right controls -->
+        <!-- <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo2" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a> -->
+      </div>
+     
+      </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+     
+     <!--banner wrapper end-->
+
+      <!--banner wrapper end-->
+      <!--topconsultation start-->
+     <div class="topconsultation">
+         <div class="container">
+            <div class="row">
+<div class="col-md-4">
+<div class="box">
+<div class="icon"><img alt="" src="<?php echo e(asset('/frontend/images/icon_freecont.png')); ?>" /></div>
+
+<h3>Free Consultation</h3>
+<!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>--></div>
+<p>&nbsp;</p>
+
+</div>
+
+<div class="col-md-4">
+<div class="box">
+<div class="icon"><img alt="" src="<?php echo e(asset('/frontend/images/icon_family.png')); ?>" /></div>
+
+<h3>Family-Owned Business</h3>
+<!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>--></div>
+<p>&nbsp;</p>
+</div>
+
+<div class="col-md-4">
+<div class="box">
+<div class="icon"><img alt="" src="<?php echo e(asset('/frontend/images/icon_quality.png')); ?>" /></div>
+
+<h3>High-Quality Craftsmanship</h3>
+<!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>--></div>
+
+<p>&nbsp;</p>
+</div>
+</div>
+         </div>
+      </div>
+      <!--topconsultation end-->
+      <!--contact wrapper start-->
+      <div class="inner_wrapper genpad">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1>Contact <span>Us</span></h1>
+               </div>
+               <div class="col-md-6 contact_address">
+                  <h3>Find <span>Us</span></h3>
+                  
+
+                  <h4>Address</h4>
+                  <p><?php echo e($settings->address); ?></p>
+
+                  <h4>Phone</h4>
+                  <p><?php echo e($settings->home_phone); ?></p>
+
+                  <h4>Email</h4>  
+                  <p><a href="mailto:<?php echo e($settings->email); ?>"><?php echo e($settings->email); ?></a></p>
+
+                  <div class="map">
+                  <div class="embed-responsive embed-responsive-16by9">
+                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.0291972489485!2d-6.446094984651848!3d53.36063238134288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486772590c36efbd%3A0xf34f5936ffd52a49!2sLucan%20Kitchen%20%26%20Bedroom%20Specialist!5e0!3m2!1sen!2sin!4v1573378582997!5m2!1sen!2sin"></iframe>
+                  </div>
+                     
+                  </div>
+               </div>
+               <div class="col-md-6 contact_form">
+                  <h3>Enquiry <span>Form</span></h3>
+                  <?php echo Form::open(array('route' => 'contact.save','method'=>'POST', 'id' => 'contact', 'name' => 'contact', 'files' => true, 'enctype' => 'multipart/form-data')); ?>
+
+                  <label>Name (required)</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                  <label>Email (required)</label>                    
+                  <input type="email" class="form-control" id="email" name="email" required>
+                  <label>Mobile (required)</label>                    
+                  <input type="text" class="form-control" id="phone" name="phone" required>
+                  <label>Enquiry About</label>
+                  <input type="text" class="form-control" id="about" name="about">
+                  <label>Address</label>
+                  <input type="text" class="form-control" id="address" name="address">
+
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <label>City</label>
+                        <input type="text" class="form-control" id="city" name="city">
+                     </div>
+                     <div class="col-lg-6">
+                        <label>Country</label>
+                       <input type="text" class="form-control" id="country" name="country">
+                     </div>
+                  </div>                
+                                    
+                  <label>Query Message</label>                     
+                  <textarea class="form-control" rows="5" id="message" name="message" required></textarea>
+                  <input name="" type="submit" value="Submit Query" class="btn_submit">
+                  <?php echo Form::close(); ?>
+
+               </div>
+            </div>
+         </div>
+         </div>
+         <!--contact wrapper end-->
+           
+      <!--bottom contact start-->
+       <?php echo $__env->make('front/includes/contact', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+      <!--bottom contact end-->
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('front.layouts.innerpage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

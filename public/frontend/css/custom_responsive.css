@@ -1,0 +1,105 @@
+
+
+@media (max-width:1199px) {
+.banner_wrapper .caption h2, .banner_wrapper_inner .caption h2 { font-size: 50px; }
+
+
+}
+
+
+
+@media (max-width:991px) {
+
+html,body { font-size: 16px; line-height: 25px;}
+
+.container { max-width: 100%; }
+
+.logo img { height: 70px; }
+
+
+.banner_wrapper .caption h2, .banner_wrapper_inner .caption h2 { font-size: 40px; }
+
+.abt_pic .smthum { width: 180px; }
+
+
+h1  {font-size: 40px; padding-bottom: 30px; }
+
+.social a { font-size: 20px; line-height: 20px; margin-right: 3px;}
+
+.service_wrapper .box img, .project_wrapper .box img, .gen_box img { height: 300px; }
+
+.bottom_contact h3 { font-size: 25px; }
+
+.grid .box img { height: 230px; }
+
+}
+
+
+
+
+@media (max-width:767px) {
+
+h1, h2, h3, h4, h5, h6, p { padding-bottom:15px;}
+h1 { font-size: 30px; }
+#slide.owl-carousel .owl-nav button.owl-next, #slide.owl-carousel .owl-nav button.owl-prev { width: 35px; height: 35px; }
+
+.header_wrapper { position: relative; }
+.topsocial { float: none; margin: 0; text-align: center; }
+.logo img { height: 50px; }
+
+.banner_wrapper .caption, .banner_wrapper_inner .caption { display: none; }
+
+.topconsultation .box { padding-bottom: 15px; }
+
+.abt_pic { padding: 0 50px 25px 0; margin-bottom: 20px;  }
+.abt_pic .smthum { width: 120px; }
+.project_wrapper .box { margin-bottom: 15px; }
+
+.bottom_contact p { padding-bottom: 15px; }
+.bottom_contact .btn_contact { float: none; padding: 10px 15px; display: inline-block; font-size: 20px; }
+
+.list { display: none; padding-top: 10px; }
+.footer_wrapper .connect { display: block; }
+
+.copy_wrapper { padding: 20px 0; text-align: center; }
+.copy_wrapper .right {text-align: center;}
+
+.footer_wrapper h5 { font-size:15px; padding-bottom:0; cursor: pointer; background: url(../images/arrow_down2.png) no-repeat 99% 17px; border-bottom: 1px solid #ccc; padding:10px 0; }
+
+.genpad { padding: 30px 0; }
+
+.banner_wrapper_inner img { min-height: 250px; }
+
+.map { padding-bottom: 20px; }
+
+.faq_wrapper .card-body { padding: 10px; }
+.faq_wrapper h2 { padding: 5px 15px; }
+
+.gen_box img { height: 250px; }
+.gen_box h6, .grid .box h6 {font-size: 20px; padding: 15px 0;}
+
+.grid .box img { height: 200px; }
+
+.grid .box { width: 50%; }
+
+.gallery_list button { font-size: 14px; }
+
+}
+
+
+
+@media (max-width:639px) {
+
+
+
+}
+
+
+
+@media (max-width:479px) {
+
+.banner_wrapper img, .banner_wrapper_inner img { height: 250px; object-fit: cover; object-position: center; }
+
+.grid .box { width: 100%; }
+
+}
